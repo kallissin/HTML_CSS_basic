@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+        
+        table {
+            border-collapse: collapse; /* para tirar espaçamentos dentre as tabelas */
+            width: 200%;
+        }
+
+        table caption {
+            caption-side: bottom; /* Localização da descrição da tabela*/
+            text-align: left;
+            padding-top: 5px;
+            font-style: italic;
+            font-size: 14px 0;
+        }
+
+        tfoot td, thead th {
+            background: #ddd;
+        }
+
+        tfoot td {
+            font-style: italic;
+        }
+
+        .responsive-table { /* para adptar o tamanho no celular*/
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+    <div class="responsive-table">
+        <table>
+            <caption>Descrição da tabela</caption> <!--Para criar uma descrição de uma tabela-->
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+                <tr>
+                    <td>Corpo 4</td>
+                    <td>Corpo 5</td>
+                    <td>Corpo 6</td>
+                </tr>
+                <tr>
+                    <td>Corpo 7</td>
+                    <td>Corpo 8</td>
+                    <td>Corpo 9</td>
+                </tr>
+            </tbody>
+            
+            <tfoot> <!--Geralmente usado para mostrar a soma de uma tabela-->
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td rowspan="">TOTAL: </td>
+                </tr>
+                <tr>
+                    <td>R$0000</td>
+                </tr>
+            
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
