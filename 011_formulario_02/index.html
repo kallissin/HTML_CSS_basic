@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        label {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="GET" target="_blank">
+        <p>O meu formulário</p>
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="seu nome" required>
+        </p>
+
+        <p>
+            <label for="dev">Você é um Dev:</label>
+            <input type="checkbox" name="dev" value="sim" checked> <br>
+        
+            <label for="dev">Você é um Dev:</label>
+            <input type="checkbox" name="dev2" value="sim" checked> <br>
+        
+            <label for="dev">Você é um Dev:</label>
+            <input type="checkbox" name="dev3" value="sim"
+            checked>
+        </p>
+
+        <p>
+            Gênero: <br>
+            <label for="feminino">feminino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino" checked> <br>
+
+            <label for="masculino">masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino"> <br>
+
+            <label for="outro">outro</label>
+            <input type="radio" name="genero" id="outro" value="outro"> <br>
+        </p>
+
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+</body>
+</html>
