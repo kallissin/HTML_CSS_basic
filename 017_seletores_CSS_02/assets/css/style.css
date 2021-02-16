@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai h1+p { /*adjacent sibling selector = seleciona o proximo paragrafo depois do H1 */
+    color: red;
+}
+
+.pai h1~p { /* general sibling selector = seleciona todos os paragrafos depois do H1 */
+    color: blue
+}
