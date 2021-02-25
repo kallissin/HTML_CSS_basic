@@ -1,0 +1,15 @@
+ul li::before { 
+    content: ' - ';
+    background: chartreuse;
+    color: white;
+
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+p::selection {
+    background: black;
+    color: white;
+}
