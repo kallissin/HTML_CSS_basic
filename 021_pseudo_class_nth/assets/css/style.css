@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nth-child serve para selecionar os irmãos e aplicar algo em lista, paragrafos, etc..*/
+
+ul li:nth-child(odd) {
+    background: purple;
+}
+
+ul li:nth-child(even) {
+    background: red;
+}
+
+ul li:nth-child(3n) {
+    background: blue;
+}
+
+ul li:nth-child(3n + 5) {
+    background: chartreuse;
+    font-style: italic;
+    
+}
