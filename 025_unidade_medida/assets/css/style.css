@@ -1,0 +1,32 @@
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pai {
+    width: 100vw;
+    height: 100vh;
+    background: yellow;
+}
+
+
+.color-one {
+    background: brown;
+}
+
+.color-two {
+    background: coral;
+}
+
+
+p {
+    font-size: 1.6rem;
+}
+
