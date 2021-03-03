@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    background: yellow;
+    height: 500px;
+}
+
+.flex-item {
+    margin: 10px;
+    background: red;
+}
